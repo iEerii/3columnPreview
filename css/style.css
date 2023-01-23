@@ -72,15 +72,15 @@ a {
     transition: all .4s ease-in-out;
 }
 
-.box1 a{
+.wrapper__box--1 a{
     color: var(--brightOrange);
 }
 
-.box2 a{
+.wrapper__box--2 a{
     color: var(--darkCyan);
 }
 
-.box3 a{
+.wrapper__box--3 a{
     color: var(--veryDarkCyan);
 }
 
@@ -90,14 +90,14 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    .wrapper {
+    .wrapper__box {
         flex-direction: column;
         margin: 20px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .box1 {
+    .wrapper__box--1 {
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: 0;
@@ -105,7 +105,7 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-    .box3 {
+    .wrapper__box--3 {
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
         border-top-right-radius: 0;
